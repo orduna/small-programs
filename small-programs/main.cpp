@@ -9,6 +9,9 @@
 #include <iostream>
 
 int main(int argc, const char * argv[]) {
-    std::cout << "Hello, World!\n";
+    double a = 1.;
+    double b = -1.;
+    double c = a + b;
+    std::cout << c << " is the result of " << a << "+" << b << std::endl;
     return 0;
 }
